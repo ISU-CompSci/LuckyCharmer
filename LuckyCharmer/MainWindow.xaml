@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button x:Name="btnReadFile" Content="Read the File" HorizontalAlignment="Left" Margin="110,58,0,0" VerticalAlignment="Top" Width="102" Height="30" Click="btnReadFile_Click"/>
+        <Button x:Name="btnSaveHero" Content="Create the Hero" HorizontalAlignment="Left" Margin="110,119,0,0" VerticalAlignment="Top" Width="102" Height="30" Click="btnSaveHero_Click"/>
         
+
     </Grid>
 </Window>
